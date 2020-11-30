@@ -37,6 +37,7 @@ $(function () {
             } else {
                 layui.layer.msg(res.message);
                 localStorage.setItem('token', res.token)
+                window.location = 'index.html'
             }
         })
     })
